@@ -31,9 +31,8 @@ The framework evaluates model surprise (non-conformity) on a dedicated calibrati
 > **Impact:** By isolating ambiguous cases, we maintain almost perfect accuracy on automated decisions, providing the statistical traceability required for FDA AI/ML regulatory clearance.
 
 ## Repository Structure
-* `data_pipeline.R`: Simulation of the MIMIC-IV-ED schema and feature engineering.
-* `conformal_wrapper.R`: Implementation of non-conformity scoring and $q\_hat$ calculation.
-* `visualizations.R`: ggplot2 scripts for the "Certainty vs. Ambiguity" ROI plots.
+* `conformal_triage.R`: Simulation of the MIMIC-IV-ED schema and feature engineering, implementation of non-conformity scoring and $q\_hat$ calculation.
+* `Predicted Probability of ICU.png`: Clinical Decision Support, Confidence Sets
 * `Technical_Brief.pdf`: A 2-page executive summary for clinical and commercial stakeholders.
 
 ---
